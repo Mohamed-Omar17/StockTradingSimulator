@@ -6,7 +6,11 @@ from gymnasium import spaces
 import matplotlib.pyplot as plt
 import yfinance as yf
 from stable_baselines3 import PPO
+from stable_baselines3.common.env_checker import check_env
+from gymnasium import Env
 from sympy.physics.units import current
+
+
 
 x = []
 y = []
